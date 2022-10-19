@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/neo4j/neo4j-go-driver/v4/neo4j"
+	"github.com/neo4j/neo4j-go-driver/v5/neo4j"
 )
 
 func assertNilError(t *testing.T, err error) {

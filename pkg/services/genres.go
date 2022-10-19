@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/neo4j-graphacademy/neoflix/pkg/fixtures"
-	"github.com/neo4j/neo4j-go-driver/v4/neo4j"
+	"github.com/neo4j/neo4j-go-driver/v5/neo4j"
 )
 
 type Genre = map[string]interface{}
